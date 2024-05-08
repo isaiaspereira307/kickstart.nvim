@@ -12,4 +12,10 @@ return {
       vim.keymap.set('n', '<Leader>go', ':GitBlameOpenCommitURL<CR>', { noremap = true, silent = true, desc = 'Open commit URL' })
     end,
   },
+  {
+    'ThePrimeagen/vim-be-good',
+    cmd = {
+      'VimBeGood',
+    },
+  },
 }
